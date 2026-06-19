@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Olale Coumba Sam — Développeuse Backend</title>
+<meta name="description" content="Portfolio de Olale Coumba Sam, développeuse web backend senior à Dakar, Sénégal. Ruby on Rails, Laravel, PHP, Java, MySQL.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#accueil" class="logo">olale<span class="logo-dot">.</span>sam</a>
+    <nav class="main-nav">
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#experience">Expérience</a>
+      <a href="#formation">Formation</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav id="mobileNav" class="mobile-nav">
+    <a href="#apropos">À propos</a>
+    <a href="#competences">Compétences</a>
+    <a href="#experience">Expérience</a>
+    <a href="#formation">Formation</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="accueil" class="hero">
+    <div class="wrap hero-inner">
+      <div class="file-tab" aria-hidden="true">
+        <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+        <span class="file-tab-name">olale_sam.rb</span>
+      </div>
+
+      <p class="prompt-line"><span class="prompt-sym">&gt;</span> whoami</p>
+
+      <h1 class="hero-name">Olale Coumba Sam</h1>
+
+      <p class="hero-role">
+        <span class="role-tag">Développeuse Web Backend Senior</span>
+        <span class="role-tag role-tag--muted">Formatrice</span>
+      </p>
+
+      <p class="hero-tagline">
+        Plus de 10 ans à construire la partie qu'on ne voit pas : API, web
+        services et bases de données, principalement avec Ruby on Rails,
+        Laravel et Java — depuis Dakar, Sénégal.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:olalesam87@gmail.com">Écrire un e-mail</a>
+        <a class="btn btn-ghost" href="tel:+221776900241">+221 77 690 02 41</a>
+        <!-- TODO : Olale, ajoute ici l'URL de ton profil LinkedIn -->
+        <span class="btn btn-ghost btn-static" title="Lien LinkedIn à ajouter">LinkedIn</span>
+      </div>
+
+      <p class="hero-location"><span class="prompt-sym">$</span> location --set "Dakar, Sénégal"</p>
+    </div>
+  </section>
+
+  <!-- A PROPOS -->
+  <section id="apropos" class="section">
+    <div class="wrap">
+      <p class="section-eyebrow">01 — Contexte</p>
+      <h2 class="section-title">À propos</h2>
+
+      <div class="readme-card reveal">
+        <div class="file-tab file-tab--card">
+          <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+          <span class="file-tab-name">README.md</span>
+        </div>
+        <div class="readme-body">
+          <p>
+            Actuellement <strong>Senior Backend Web Developer chez Galimatech</strong>
+            et formatrice en développement web à l'Institut Polytechnique Thomas
+            Sankara de Dakar (I.P.D). J'aime surtout le travail qui se passe
+            derrière l'écran : modéliser des données, écrire des services
+            fiables, et faire en sorte que tout ça tienne en production.
+          </p>
+
+          <div class="readme-grid">
+            <div class="readme-item">
+              <span class="readme-label">En apprentissage</span>
+              <p>Développement Frontend avec React.</p>
+            </div>
+            <div class="readme-item">
+              <span class="readme-label">Langues</span>
+              <p>Français (langue maternelle) · Anglais (niveau moyen)</p>
+            </div>
+            <div class="readme-item">
+              <span class="readme-label">Secteurs</span>
+              <p>Multimédia · Éducation</p>
+            </div>
+            <div class="readme-item">
+              <span class="readme-label">En dehors du travail</span>
+              <p>Side-projects, salle de gym, natation, meetups locaux.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETENCES -->
+  <section id="competences" class="section section--alt">
+    <div class="wrap">
+      <p class="section-eyebrow">02 — Gemfile</p>
+      <h2 class="section-title">Compétences</h2>
+      <p class="section-sub">Les dépendances que j'installe sur (presque) tous mes projets.</p>
+
+      <div class="skills-grid">
+        <div class="skill-block reveal">
+          <h3 class="skill-block-title"><span class="prompt-sym">#</span> Langages &amp; frameworks</h3>
+          <ul class="tag-list">
+            <li class="tag tag--primary">Ruby on Rails</li>
+            <li class="tag tag--primary">Laravel</li>
+            <li class="tag tag--primary">PHP</li>
+            <li class="tag tag--primary">Java</li>
+            <li class="tag">Jhipster</li>
+          </ul>
+        </div>
+
+        <div class="skill-block reveal">
+          <h3 class="skill-block-title"><span class="prompt-sym">#</span> Données &amp; modélisation</h3>
+          <ul class="tag-list">
+            <li class="tag tag--primary">MySQL</li>
+            <li class="tag">UML</li>
+            <li class="tag">Web Services</li>
+          </ul>
+        </div>
+
+        <div class="skill-block reveal">
+          <h3 class="skill-block-title"><span class="prompt-sym">#</span> Plateformes &amp; outils</h3>
+          <ul class="tag-list">
+            <li class="tag">PowerApps</li>
+            <li class="tag">PowerAutomate</li>
+            <li class="tag">Matlab</li>
+          </ul>
+        </div>
+
+        <div class="skill-block reveal">
+          <h3 class="skill-block-title"><span class="prompt-sym">#</span> En cours d'installation</h3>
+          <ul class="tag-list">
+            <li class="tag tag--learning">React</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="wrap">
+      <p class="section-eyebrow">03 — Historique</p>
+      <h2 class="section-title">Expérience</h2>
+      <p class="section-sub">Mon parcours, présenté comme un historique de migrations : chaque poste est un changement appliqué à la base.</p>
+
+      <p class="migrate-path"><span class="prompt-sym">$</span> ls db/migrate/</p>
+
+      <ol class="migration-log">
+
+        <li class="migration reveal">
+          <span class="migration-rail" aria-hidden="true"></span>
+          <div class="migration-card">
+            <p class="migration-filename">20210101_galimatech_senior_backend.rb <span class="status status--active">en cours</span></p>
+            <h3 class="migration-role">Senior Backend Web Developer · Galimatech</h3>
+            <p class="migration-dates">Janvier 2021 — Présent</p>
+            <p class="migration-up"><span class="up-down">up</span> Création d'applications Windows avec PowerApps, PowerAutomate et Matlab.</p>
+            <ul class="tag-list tag-list--sm">
+              <li class="tag">PowerApps</li><li class="tag">PowerAutomate</li><li class="tag">Matlab</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="migration reveal">
+          <span class="migration-rail" aria-hidden="true"></span>
+          <div class="migration-card">
+            <p class="migration-filename">20210201_ipd_formatrice_dev_web.rb <span class="status status--active">en cours</span></p>
+            <h3 class="migration-role">Professeure de Développement Web · Thomas Sankara Polytechnic Institute of Dakar (I.P.D)</h3>
+            <p class="migration-dates">Février 2021 — Présent</p>
+            <p class="migration-up"><span class="up-down">up</span> Enseignement de l'UML, de Laravel et des Web Services à de futurs développeurs.</p>
+            <ul class="tag-list tag-list--sm">
+              <li class="tag">UML</li><li class="tag">Laravel</li><li class="tag">Web Services</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="migration reveal">
+          <span class="migration-rail" aria-hidden="true"></span>
+          <div class="migration-card">
+            <p class="migration-filename">20200301_wango_senior_backend.rb <span class="status">terminée</span></p>
+            <h3 class="migration-role">Senior Backend Web Developer · Wango (West African Network for Global Online)</h3>
+            <p class="migration-dates">Mars 2020 — Décembre 2020</p>
+            <p class="migration-up"><span class="up-down">up</span> Création de Web Services et implémentation des fonctionnalités d'enregistrement des employés à l'IPRESS.</p>
+            <ul class="tag-list tag-list--sm">
+              <li class="tag">Java</li><li class="tag">Jhipster</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="migration reveal">
+          <span class="migration-rail" aria-hidden="true"></span>
+          <div class="migration-card">
+            <p class="migration-filename">20171001_yano_exchange_backend.rb <span class="status">terminée</span></p>
+            <h3 class="migration-role">Backend Web Developer · YANO Exchange</h3>
+            <p class="migration-dates">Octobre 2017 — Février 2020</p>
+            <p class="migration-up"><span class="up-down">up</span> Design et implémentation des Web Services de l'application mobile Wingu, réalisation du backend de la plateforme lwin, et maintenance des fonctionnalités de Yano Services.</p>
+            <ul class="tag-list tag-list--sm">
+              <li class="tag">Ruby on Rails</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="migration reveal">
+          <span class="migration-rail" aria-hidden="true"></span>
+          <div class="migration-card">
+            <p class="migration-filename">20171104_marodi_backend.rb <span class="status">terminée</span></p>
+            <h3 class="migration-role">Backend Web Developer · Marodi</h3>
+            <p class="migration-dates">Novembre 2015 — Février 2017</p>
+            <p class="migration-up"><span class="up-down">up</span> Création des Web Services de la plateforme Marodi TV et implémentation de ses fonctionnalités.</p>
+            <ul class="tag-list tag-list--sm">
+              <li class="tag">Ruby on Rails</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="migration reveal">
+          <span class="migration-rail" aria-hidden="true"></span>
+          <div class="migration-card">
+            <p class="migration-filename">20170401_jalo_backend.rb <span class="status">terminée</span></p>
+            <h3 class="migration-role">Backend Web Developer · Jalô</h3>
+            <p class="migration-dates">Avril 2017 — Septembre 2017</p>
+            <p class="migration-up"><span class="up-down">up</span> Design et implémentation du backend et des Web Services de la plateforme Jalô.</p>
+            <ul class="tag-list tag-list--sm">
+              <li class="tag">Laravel</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="migration reveal">
+          <span class="migration-rail" aria-hidden="true"></span>
+          <div class="migration-card">
+            <p class="migration-filename">20170301_dealer_solution_backend.rb <span class="status">terminée</span></p>
+            <h3 class="migration-role">Backend Web Developer · Dealer Solution</h3>
+            <p class="migration-dates">Mars 2017 — Juillet 2017</p>
+            <p class="migration-up"><span class="up-down">up</span> Création des Web Services de la plateforme Dealer Solutions, dédiée aux concessionnaires automobiles. Enseignement ponctuel des Web Services, de l'UML et de la programmation orientée objet avec Laravel.</p>
+            <ul class="tag-list tag-list--sm">
+              <li class="tag">Laravel</li>
+            </ul>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- FORMATION -->
+  <section id="formation" class="section section--alt">
+    <div class="wrap">
+      <p class="section-eyebrow">04 — Schema</p>
+      <h2 class="section-title">Formation</h2>
+
+      <div class="schema-table reveal" role="table" aria-label="Formation">
+        <div class="schema-row schema-row--head" role="row">
+          <span role="columnheader">diplôme</span>
+          <span role="columnheader">établissement</span>
+          <span role="columnheader">période</span>
+        </div>
+
+        <div class="schema-row" role="row">
+          <span role="cell" class="schema-degree">Master en Génie Logiciel et Système d'Information <em>(sous réserve de soutenance)</em></span>
+          <span role="cell">École Polytechnique de Dakar (ESP)</span>
+          <span role="cell" class="schema-dates">Oct 2015 — Juin 2015</span>
+        </div>
+
+        <div class="schema-row" role="row">
+          <span role="cell" class="schema-degree">Licence en Génie Logiciel et Système d'Information</span>
+          <span role="cell">École Polytechnique de Dakar (ESP)</span>
+          <span role="cell" class="schema-dates">Oct 2012 — Aoû 2013</span>
+        </div>
+
+        <div class="schema-row" role="row">
+          <span role="cell" class="schema-degree">Diplôme de Technicien Supérieur en Électronique Industrielle (DTS)</span>
+          <span role="cell">Centre d'Entrepreneuriat et de Développement Technique de Dakar (C.E.D.T)</span>
+          <span role="cell" class="schema-dates">Oct 2011 — Juil 2012</span>
+        </div>
+
+        <div class="schema-row" role="row">
+          <span role="cell" class="schema-degree">Brevet de Technicien Supérieur en Électronique Industrielle (BTI)</span>
+          <span role="cell">Sénégal-Japon</span>
+          <span role="cell" class="schema-dates">Oct 2009 — Juin 2011</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section--terminal">
+    <div class="wrap">
+      <p class="section-eyebrow">05 — Console</p>
+      <h2 class="section-title">Contact</h2>
+
+      <div class="terminal-card reveal">
+        <div class="file-tab file-tab--card">
+          <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+          <span class="file-tab-name">contact.sh</span>
+        </div>
+        <div class="terminal-body">
+          <p class="term-line"><span class="prompt-sym">$</span> contact --olale</p>
+          <p class="term-output">→ e-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:olalesam87@gmail.com">olalesam87@gmail.com</a></p>
+          <p class="term-output">→ téléphone&nbsp;<a href="tel:+221776900241">+221 77 690 02 41</a></p>
+          <p class="term-output">→ ville&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dakar, Sénégal</p>
+          <p class="term-line term-line--cursor"><span class="prompt-sym">$</span> <span class="cursor" aria-hidden="true"></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="year"></span> Olale Coumba Sam — construit avec HTML &amp; CSS, sans framework.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
